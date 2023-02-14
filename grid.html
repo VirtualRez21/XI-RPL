@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BELAJAR GRID</title>
+	<link rel="stylesheet" type="text/css" href="css/style_flexbox.css">
+
+	<style>
+		.container {
+		  display: flex;
+		  gap: 20px;
+		  flex-direction: row;
+		  flex-wrap: wrap;
+		}
+		.item {
+		  background-color: lightblue;
+		  padding: 1rem;
+		  width: calc((100% / 3) - 60px);
+		  text-align: center;
+		}
+
+		.grid {
+		  display: grid;
+		  grid-template-columns: 1fr 1fr 1fr;
+		  gap:20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+	  <div class="item">
+	  	<img src="media/avatar.png" width="128px">
+	  	<h2>avatar</h2>
+	  </div>
+	  <div class="item">
+	  	<img src="media/avatar.png" width="128px">
+	  	<h2>avatar</h2>
+	  </div>
+	  <div class="item">
+	  	<img src="media/avatar.png" width="128px">
+	  	<h2>avatar</h2>
+	  </div>
+	  <div class="item">
+	  	<img src="media/avatar.png" width="128px">
+	  	<h2>avatar</h2>
+	  </div>
+	  <div class="item">
+	  	<img src="media/avatar.png" width="128px">
+	  	<h2>avatar</h2>
+	  </div>
+	  <div class="item">
+	  	<img src="media/avatar.png" width="128px">
+	  	<div class="fakeimg" style="height: 60px;">Image</div>
+	  </div>
+	</div>
+</body>
+</html>

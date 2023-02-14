@@ -1,0 +1,90 @@
+/*p{
+	background-color: yellow;
+	color: black;
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+#idTagP{
+	background-color: blue;
+	color: white;
+/*	font-family: Arial, Helvetica, sans-serif;*/
+	font-family: 'Patrick Hand', cursive;
+}
+
+.classTagP{
+	background-color: gray;
+	color: black;
+}
+
+.classTagPP{
+	text-align: center;
+}
+
+.box1{
+	padding-left: 200px;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+
+.box2{
+	margin-left: 200px;
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+}
+
+.box3{
+	margin-left: 200px;
+	padding-left: 300px;
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+}
+
+.box4{
+	margin-left: 100px;
+	padding-left: 300px;
+	border-style: solid;
+	border-width: 10px;
+	border-color: black;
+	background-color: blue;
+}
+
+.box5{
+	margin: 10px 20px 30px 40px;
+	padding: 30px 40px;
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+}
+
+.box6{
+	background-color: gray;
+}
+
+.relative{
+	position: fixed;
+	left: 30px;
+	border: 3px solid #73AD21;
+}
+
+.tabelSoal{
+	background-color: red;
+	font-family: Arial;
+	text-align: center;
+}
+
+.tabelSoal2{
+	background-color: yellow;
+	font-family: Verdana;
+	text-align: center;
+}
+
+.tabelSoal3{
+	background-color: gray;
+}
+
+.tabelSoal4{
+	background-color: skyblue;
+}
