@@ -7,11 +7,29 @@
 	<link rel="stylesheet" type="text/css" href="css/style_flexbox.css">
 </head>
 <body>
+	<script>
+		function konfirmasiDelete(){
+			confirm("Apakah data ingin dihapus?");
+		}
+
+		function alertJS(){
+			alert(" Apakah anda yakin ingin membuka situs ini?");
+		}
+
+		function inputNama(){
+			prompt("Masukkan nama Anda: ");
+		}
+		alert(" Apakah anda yakin ingin membuka situs ini?");
+	</script>
 	<div class="header">
 		<h1>BELAJAR WEBSITE FLEX BOX</h1>
 		<p>With a <b>Flexible Website</b></p>
 	</div>
+	<a onclick="return konfirmasiDelete()" href="">Confirm</a>
 
+	<a onclick="return alertJS()" href="">Alert</a>
+
+	<a onclick="return inputNama()" href="">Input</a>
 	<div class="navbar">
 		<a href="#">HOME</a>
 		<a href="#">ARTICLE</a>
@@ -35,12 +53,19 @@
 			<div class="fakeimg">
 				<img src="media/komi.png" width="128px">
 			</div>
+
 			<div class="fakeimg">
 				<img src="media/komi.png" width="128px">
 			</div>
+
 			<div class="fakeimg">
 				<img src="media/komi.png" width="128px">
 			</div>
+
+			<div class="fakeimg">
+				<img src="media/komi.png" width="128px">
+			</div>
+			
 		</div>
 
 		<div class="main">
@@ -65,7 +90,10 @@
 			<div class="fakeimg" >
 				<img src="media/Sangonomiya_Kokomi_Builds.webp" width="512px">
 			</div>
-		</div>
+			<div class="fakeimg" >
+				<img src="media/Sangonomiya_Kokomi_Builds.webp" width="512px">
+			</div>
+		</div> 
 	</div>
 
 </body>
